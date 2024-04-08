@@ -1,4 +1,11 @@
 {
-  "name": "eslintYarnIssue",
-  "packageManager": "yarn@4.1.1"
+  "name": "root",
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "workspaces": [
+    "./**"
+  ],
+  "dependencies": {
+    "eslint": "^8.57.0"
+  }
 }
