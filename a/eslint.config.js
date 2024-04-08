@@ -1,4 +1,4 @@
-import kalkiEslint from "@kalki/eslint-config-kalki/flat/library";
+import customEslint from "eslint-config-custom/flat/library";
 export default [
-	...kalkiEslint
+	...customEslint
 ];

@@ -1,5 +1,5 @@
 {
-  "name": "@kalki/eslint-config-kalki",
+  "name": "eslint-config-custom",
   "license": "MIT",
   "type": "module",
   "exports": {
