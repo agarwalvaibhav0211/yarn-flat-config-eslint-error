@@ -13,18 +13,7 @@
     "@eslint/js": "^8.57.0",
     "@types/eslint": "^8.56.7",
     "eslint": "^8.57.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "globals": "^15.0.0"
-  },
-  "scripts": {
-    "g:lint": "cd $INIT_CWD && eslint .",
-    "g:lint-fix": "cd $INIT_CWD && eslint . --fix",
-    "g:lint-to-log": "cd $INIT_CWD && eslint . -o eslintReport.html"
-  },
-  "nx": {
-    "includedScripts": [
-      "g:lint",
-      "g:lint-fix",
-      "g:lint-to-log"
-    ]
   }
 }
